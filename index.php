@@ -44,7 +44,7 @@ else{
     $title = $_POST["title"];
     $description = $_POST["description"];
 
-  // Sql query to be executed
+  // Sql query to be executed.
   $sql = "INSERT INTO `notes` (`title`, `description`) VALUES ('$title', '$description')";
   $result = mysqli_query($conn, $sql);
 
