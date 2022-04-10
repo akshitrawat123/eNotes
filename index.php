@@ -25,7 +25,7 @@ if(isset($_GET['delete'])){
 }
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 if (isset( $_POST['snoEdit'])){
-  // Update the record
+  // Update the new record
     $sno = $_POST["snoEdit"];
     $title = $_POST["titleEdit"];
     $description = $_POST["descriptionEdit"];
