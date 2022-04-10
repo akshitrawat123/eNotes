@@ -116,7 +116,7 @@ section{
 <body >
 
    <section>
-  <!-- Edit Modal -->
+  <!-- Edit new Modal -->
   <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
